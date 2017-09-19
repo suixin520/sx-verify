@@ -1,0 +1,20 @@
+{
+  "author": "suixin",
+  "name": "sx-verify",
+  "version": "0.0.1",
+  "description": "verify",
+  "main": "suixin",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/suixin520/sx-verify"
+  },
+  "keywords": [
+      "verify"
+  ],
+  "dependencies": {
+      
+  },
+  "engines": {
+      "node": "*"
+  }
+}
