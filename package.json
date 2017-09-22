@@ -1,9 +1,9 @@
 {
   "author": "suixin",
   "name": "sx-verify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "verify",
-  "main": "suixin",
+  "main": "verify",
   "repository": {
       "type": "git",
       "url": "https://github.com/suixin520/sx-verify"
