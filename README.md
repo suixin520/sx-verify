@@ -2,17 +2,18 @@
 用法：npm install sx-verify
 
 > v 0.0.1
+
   first commit
 
-> v 0.0.2
-  加入了身份证号验证模块：
-
   var verify = require('sx-verify);
+> v 0.0.3
+
+  1、加入了身份证号验证模块：
 
   verify.idcard(IDCard);
 
-  return:
   ```
+  return:
   {
     isTrue: false, // 身份证号码是否验证正确
     province: '', // 来自哪个省份 “湖北省”
