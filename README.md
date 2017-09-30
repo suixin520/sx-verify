@@ -1,12 +1,12 @@
 # sx-verify
 用法：npm install sx-verify
 
-> v 0.0.1
+> v0.0.1
 
   first commit
 
   var verify = require('sx-verify);
-> v 0.0.3
+> v0.0.3
 
   1、加入了身份证号验证模块：
 
@@ -21,3 +21,10 @@
     sex: '' // 性别 “男” || “女”
   }
   ```
+  > v0.0.4
+
+    2、加入了手机号码验证：
+
+    verify.phone(phoneNumber)
+
+    return true || false;
