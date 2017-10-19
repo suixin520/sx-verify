@@ -1,30 +1,33 @@
 # sx-verify
-用法：npm install sx-verify
 
-> v0.0.1
+## Abstract
 
-  first commit
+&ensp;&ensp; This is a instrument to verify various of number, such as IDCard、phone number...
 
-  var verify = require('sx-verify);
-> v0.0.3
+## Installation
 
-  1、加入了身份证号验证模块：
+&ensp;&ensp; npm install sx-verify --save
 
-  verify.idcard(IDCard);
+## Using
 
-  ```
-  return:
-  {
-    isTrue: false, // 身份证号码是否验证正确
-    province: '', // 来自哪个省份 “湖北省”
-    birthday: '', // 生日 “1993-09-15”
-    sex: '' // 性别 “男” || “女”
+&ensp;&ensp; As follows:
+```
+var sx = require('sx-verify');
+
+/**
+  @return{
+    isTrue: false, // The IDCard is correct or incorrect  true | false
+    province: '湖北省', // Where from are you on the basis of IDCard
+    birthday: '1990-01-01', // The birthday on the basis of IDCard
+    sex: '男' // The sex on the basis of IDCard  '男' | '女'
   }
-  ```
-  > v0.0.4
+*/
+var IDCard = '42***';
+sx.idcard(IDCard);
 
-    2、加入了手机号码验证：
-
-    verify.phone(phoneNumber)
-
-    return true || false;
+/**
+  @return true | false
+*/
+var phoneNumber = '131***';
+sx.phone(phoneNumber);
+```
