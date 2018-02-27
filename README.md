@@ -30,4 +30,10 @@ sx.idcard(IDCard);
 */
 var phoneNumber = '131***';
 sx.phone(phoneNumber);
+
+/**
+  @return true | false
+*/
+var email = '1100@gmail.com';
+sx.email(email);
 ```

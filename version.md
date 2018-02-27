@@ -19,3 +19,7 @@
 > 0.0.5
 
 &ensp;&ensp;Optimizing some problems.
+
+> 0.0.6
+
+&ensp;&ensp;Add the email verify.
